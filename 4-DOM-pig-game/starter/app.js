@@ -49,3 +49,10 @@ document.querySelector('.btn-roll').addEventListener('click',function(){
     }
 });
 
+document.querySelector('.btn-hold').addEventListener('click',function(){
+    scores[activePlayer] += roundScore;
+
+   document.getElementById('score-'+activePlayer).textContent = scores[activePlayer];
+   //document.querySelector('#score-'+activePlayer).textContent = scores[activePlayer];
+   // document.getElementById('current-'+activePlayer).textContent = 
+})
